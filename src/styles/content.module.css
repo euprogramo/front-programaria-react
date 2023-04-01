@@ -1,0 +1,174 @@
+.projectsContainer {
+  width: 100%;
+  color: #686AAC;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.projectsTitle {
+  padding-top: 4rem;
+  font-size: 2rem;
+  color: #686AAC;
+  text-align:center
+}
+
+.cardsContainer {
+  margin: 0 auto;
+  width: 80%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  font-size: 1rem;
+}
+
+.card {
+  width: 30%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  font-size: 1.2rem;
+}
+
+.cardImage {
+  width: 100%;
+}
+
+
+.cardsRepoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 3rem;
+  padding: 2rem;
+}
+
+.cardRepo {
+  background: #686AAC;
+  width: 30%;
+  height: 80%;
+  padding: 2rem;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.cardRepoSummary{
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.cardRepoText {
+  color: #fff;
+  text-overflow: "…";
+  font-size: 1.2rem;
+  font-weight: lighter;
+  padding: 1rem;
+}
+
+.cardRepoImage {
+  border-radius: 100%;
+  width: 70%;
+}
+
+.cardRepoQuote {
+  color: #fff;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.removeTask {
+  color: #000;
+  width: 10%;
+  height: 10%;
+  text-align: center;
+}
+
+.cardImgContainer {
+  gap: 3;
+  width: 60%;
+  height: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media(max-width: 765px) {
+  .cardsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 320px;
+  }
+
+  .cardRepo {
+    width: 3200px;
+  }
+
+}
+
+.formContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 80%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formInput {
+  width: 80%;
+  padding: 12px 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+.formTextArea {
+  width: 80%;
+  padding: 12px 32px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+
+.formButton {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 1rem;
+  width: 80%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #4CA;
+}

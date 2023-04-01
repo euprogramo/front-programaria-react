@@ -1,0 +1,30 @@
+.headerContainer {
+  padding: 6rem;
+  background: #686AAC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem
+}
+
+.headerTitle {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.headerSubtitle {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+.headerImage {
+  width: 30%;
+}
+
+@media(max-width: 765px) {
+  .headerImage {
+    width: 100%;
+  }
+}
